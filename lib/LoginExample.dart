@@ -15,6 +15,7 @@ class _LoginExampleState extends State<LoginExample> {
         child: OrientationBuilder(
           builder: (BuildContext context, Orientation orientation) {
             return ListView(
+
               children: <Widget>[
                 Padding(
                   padding:   EdgeInsets.symmetric(
@@ -45,6 +46,7 @@ class _LoginExampleState extends State<LoginExample> {
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
                   child: TextFormField(
+
                     decoration: InputDecoration(hintText: "password"),
                   ),
                 ),
@@ -57,6 +59,7 @@ class _LoginExampleState extends State<LoginExample> {
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
                   child: RaisedButton(
+                    color: Colors.yellow,
                     onPressed: () {},
                     child: Text("Signin"),
                   ),
@@ -67,6 +70,7 @@ class _LoginExampleState extends State<LoginExample> {
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
                   child: RaisedButton(
+                    color: Colors.red,
                     onPressed: () {},
                     child: Text("Signup"),
                   ),
