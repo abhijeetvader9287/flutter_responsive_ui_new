@@ -31,7 +31,7 @@ class _LoginExampleState extends State<LoginExample> {
                 ),
                 Padding(
                   padding:   EdgeInsets.symmetric(
-                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 5.0 :35.0),
+                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 5.0 :15.0),
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
 
@@ -41,7 +41,7 @@ class _LoginExampleState extends State<LoginExample> {
                 ),
                 Padding(
                   padding:   EdgeInsets.symmetric(
-                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 5.0 : 35.0),
+                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 5.0 : 15.0),
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
                   child: TextFormField(
@@ -53,7 +53,7 @@ class _LoginExampleState extends State<LoginExample> {
                 ),
                 Padding(
                   padding:   EdgeInsets.symmetric(
-                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 25.0 : 45.0),
+                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 25.0 : 35.0),
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
                   child: RaisedButton(
@@ -63,7 +63,7 @@ class _LoginExampleState extends State<LoginExample> {
                 ),
                 Padding(
                   padding:   EdgeInsets.symmetric(
-                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 25.0 : 45.0),
+                    horizontal: SizeConfig.safeBlockHorizontal*(orientation == Orientation.portrait ? 25.0 : 35.0),
                     vertical:  SizeConfig.safeBlockVertical*(orientation == Orientation.portrait ? 1.0 : 2.5),
                   ),
                   child: RaisedButton(
